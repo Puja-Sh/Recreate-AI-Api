@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #404b69;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.search-header {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.search-header form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.search-input {
+    padding: 10px 20px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+}
+
+.player-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.data-heading  {
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+#player-img {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+    border: 20px solid #ed6663;
+}
+#player-name {
+    font-size: 2rem;
+    color: #fcf876;
+    margin-top: 30px;
+    
+}
+.sub-detail{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+table {
+    width: 70%;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    margin: 20px;
+    background-color: #eeeded;
+}
+
+td {
+    padding: 10px;
+}
+
+.bowling tr:nth-child(even){
+    background-color: #ccc;
+}
+.batting tr:nth-child(even){
+    background-color: #ccc;
+}
+
+button {
+    border-radius: 30px;
+    font-size: 1.2rem;
+    margin-left: 10px ;
+    width: 10%;
+    color: white;
+    background-color: #ed6663;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
